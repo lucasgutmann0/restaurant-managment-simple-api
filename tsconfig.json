@@ -1,9 +1,7 @@
 {
   "compilerOptions": {
     // Enable latest features
-    "lib": [
-      "ESNext"
-    ],
+    "lib": ["ESNext"],
     "target": "ESNext",
     "module": "ESNext",
     "moduleDetection": "force",
@@ -18,26 +16,16 @@
     "strict": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
-    // define extra paths 
+    // define extra paths
     "baseUrl": "./src",
     "paths": {
-      "@config/*": [
-        "config/*"
-      ],
-      "@routes/*": [
-        "routes/*"
-      ],
-      "@models/*": [
-        "models/*"
-      ],
-      "@libs/*": [
-        "libs/*"
-      ],
-      "@controllers/*": [
-        "controllers/*"
-      ]
+      "@config/*": ["config/*"],
+      "@routes/*": ["routes/*"],
+      "@models/*": ["models/*"],
+      "@libs/*": ["libs/*"],
+      "@controllers/*": ["controllers/*"]
     },
-    // Some stricter flags (disabled by default)
+    // Some stricter flags (dis abled by default)
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
