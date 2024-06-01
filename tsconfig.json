@@ -17,15 +17,14 @@
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
     // define extra paths
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["*"],
-      "@apiPath/*": ["../api/*"],
-      "@config/*": ["config/*"],
-      "@routes/*": ["routes/*"],
-      "@models/*": ["models/*"],
-      "@libs/*": ["libs/*"],
-      "@controllers/*": ["controllers/*"]
+      "@/*": ["./src/*"],
+      "@config/*": ["./src/config/*"],
+      "@routes/*": ["./src/routes/*"],
+      "@models/*": ["./src/models/*"],
+      "@libs/*": ["./src/libs/*"],
+      "@controllers/*": ["./src/controllers/*"]
     },
     // Some stricter flags (dis abled by default)
     "noUnusedLocals": false,
