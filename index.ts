@@ -7,6 +7,7 @@ import connectToDb from "@config/db";
 import authRouter from "@routes/auth";
 import cors from "cors";
 import productRouter from "@routes/product";
+import orderRouter from "@/routes/orders";
 
 // setup dotenv config
 dotenv.config();
@@ -32,6 +33,7 @@ connectToDb();
 // assign router endpoints
 app.use("/users", userRouter);
 app.use("/products", productRouter);
+app.use("/orders", orderRouter);
 app.use("/auth", authRouter);
 
 // start running web server
