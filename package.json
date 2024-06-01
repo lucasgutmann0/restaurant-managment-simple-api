@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "pnpx tsx --watch ./index.ts",
+    "build": "tsc",
     "start": "pnpx tsx index.ts",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
