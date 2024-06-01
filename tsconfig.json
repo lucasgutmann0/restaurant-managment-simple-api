@@ -19,6 +19,8 @@
     // define extra paths
     "baseUrl": "./src",
     "paths": {
+      "@/*": ["*"],
+      "@apiPath/*": ["../api/*"],
       "@config/*": ["config/*"],
       "@routes/*": ["routes/*"],
       "@models/*": ["models/*"],
