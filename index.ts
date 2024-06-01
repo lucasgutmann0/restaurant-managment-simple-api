@@ -7,7 +7,7 @@ import connectToDb from "@config/db";
 import authRouter from "@routes/auth";
 import cors from "cors";
 import productRouter from "@routes/product";
-import orderRouter from "@/routes/orders";
+import orderRouter from "@routes/orders";
 
 // setup dotenv config
 dotenv.config();

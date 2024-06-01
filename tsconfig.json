@@ -16,20 +16,19 @@
     "strict": true,
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
+    "outDir": "./dist",
     // define extra paths
-    "baseUrl": ".",
+    "baseUrl": "./src",
     "paths": {
-      "@/*": ["./src/*"],
-      "@config/*": ["./src/config/*"],
-      "@routes/*": ["./src/routes/*"],
-      "@models/*": ["./src/models/*"],
-      "@libs/*": ["./src/libs/*"],
-      "@controllers/*": ["./src/controllers/*"]
+      "@config/*": ["config/*"],
+      "@routes/*": ["routes/*"],
+      "@models/*": ["models/*"],
+      "@libs/*": ["libs/*"],
+      "@controllers/*": ["controllers/*"]
     },
     // Some stricter flags (dis abled by default)
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
-  },
-  "jsconfigPaths": true
+  }
 }
